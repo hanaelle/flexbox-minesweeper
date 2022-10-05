@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: rgb(243, 233, 233);
+    display: flex;
+    
+}
+.field-champs{
+    
+    border: 10px ridge rgb(162, 166, 170);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+    
+    
+}
+section{
+    display: flex;
+}
+.box{
+    width: 60px;
+    height: 60px;
+    border-bottom: 2px dashed black;
+    border-right: 2px dashed black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.numberone{
+    color: blue;
+    font-weight: bolder;
+}
+
+.numbertwo {
+    color: green;
+    font-weight: bolder;
+
+}
+
+.numberthree {
+    color: rgb(238, 17, 36);
+    font-weight: bolder;
+}
+
+.nosee {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    margin: initial;
+    background-color: rgb(192, 189, 189);
+    box-shadow: 5px 5px 0px 0px rgba(174, 164, 164, 0.77) inset,
+            -5px -5px 0px 0px rgba(174, 164, 164, 0.77) inset;
+}
